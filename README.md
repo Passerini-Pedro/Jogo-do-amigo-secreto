@@ -3,7 +3,7 @@
 <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=%20FINALIZADO&color=GREEN&style=for-the-badge"/>
 </p>
 <h2 align="center">Sobre</h2>
-<p>Projeto utiliazado no challenge dos cursos de lógica de programção da Alura.</p>
+<p align="center">Projeto utilizado no challenge dos cursos de lógica de programção da Alura.</p>
 
 ## Tecnologias
 <div>
