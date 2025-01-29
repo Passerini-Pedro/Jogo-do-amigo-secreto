@@ -35,12 +35,16 @@ function exibirValor() {
 
 function sortearAmigo(){
     
+    if(lista == ""){
+        console.log("O campo está vazio!");
+        alert("Por favor, insira um nome!");
+    }else{
     let nomeEscolhido = lista[Math.floor(Math.random() * lista.length)]
     exibirTextoNaTela('ul', '');
     lista = [];
     document.getElementById("resultado").innerHTML = nomeEscolhido;
     console.log(nomeEscolhido);
-    
+    }
 }
 
 // Adiciona um evento de clique ao botão
